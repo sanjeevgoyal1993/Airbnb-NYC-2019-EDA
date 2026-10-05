@@ -3,12 +3,12 @@
 An exploratory data analysis of 48,895 Airbnb listings in New York City (2019): where the supply is, what drives the nightly price, which listings, hosts and areas attract guests, and what Airbnb could do with these insights.
 
 - **Notebook:** [Airbnb_NYC_2019_EDA_Capstone.ipynb](Airbnb_NYC_2019_EDA_Capstone.ipynb)
-- **Colab (view only):** [open the notebook in Google Colab](https://colab.research.google.com/drive/1eK6Rcac2WAxa5YQ1zBIqu6ehtt4QOQzK). To run it, use File → Save a copy in Drive, then Runtime → Run all.
+- **Colab (view only):** [open the notebook in Google Colab](https://colab.research.google.com/drive/1Q6kmxyjM58NUEP91L8lPhb29PcQ_oQJm). To run it, use File → Save a copy in Drive, then Runtime → Run all.
 - **Author:** Sanjeev Goyal. EDA capstone project, AlmaBetter.
 
 ## Dataset
 
-Airbnb NYC 2019 listings: 48,895 rows × 16 columns covering the host, borough and neighbourhood, latitude/longitude, room type, nightly price, minimum nights, reviews and availability over the next 365 days. The notebook reads a public CSV copy of the course file, so it runs end to end without mounting Google Drive.
+Airbnb NYC 2019 listings: 48,895 rows × 16 columns covering the host, borough and neighbourhood, latitude/longitude, room type, nightly price, minimum nights, reviews and availability over the next 365 days. The notebook reads the course's official dataset file (Airbnb NYC 2019.csv) from a public link, so it runs end to end without mounting Google Drive.
 
 ## Approach
 
@@ -16,7 +16,7 @@ Airbnb NYC 2019 listings: 48,895 rows × 16 columns covering the host, borough a
 2. **Understand the variables:** descriptions, summary statistics and unique values.
 3. **Data wrangling:** fill the structural gaps, convert dates, and drop 25 invalid rows (\$0 prices, minimum stays over a year). New features: price band, host portfolio size, stay type, availability band, review recency and a likely-dormant flag. Sanity checks then stop the notebook if the cleaned data breaks an assumption.
 4. **25 charts following the UBM rule:** 9 univariate, 11 bivariate (numerical–categorical, numerical–numerical, categorical–categorical) and 5 multivariate. Each chart answers why it was chosen, what it shows and the business impact.
-5. **Recommendations and conclusion.**
+5. **Recommendations and conclusion,** including a check of the seven hypotheses listed at the start (H1–H7).
 
 ## Key findings
 
