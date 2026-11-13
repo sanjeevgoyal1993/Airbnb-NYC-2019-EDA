@@ -4,7 +4,7 @@ An exploratory data analysis of 48,895 Airbnb listings in New York City (2019): 
 
 - **Notebook:** [Airbnb_NYC_2019_EDA_Capstone.ipynb](Airbnb_NYC_2019_EDA_Capstone.ipynb)
 - **Colab (view only):** [open the notebook in Google Colab](https://colab.research.google.com/drive/1Q6kmxyjM58NUEP91L8lPhb29PcQ_oQJm). To run it, use File → Save a copy in Drive, then Runtime → Run all.
-- **Author:** Sanjeev Goyal. EDA capstone project, AlmaBetter.
+- **Author:** Sanjeev Goyal. EDA capstone project, AlmaBetter. Developed with AI assistance from Claude.
 
 ## Dataset
 
